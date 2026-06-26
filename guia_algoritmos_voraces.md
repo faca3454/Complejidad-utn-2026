@@ -30,13 +30,13 @@ La trampa — y lo que realmente te van a evaluar — es esto:
 Para cualquier problema voraz, antes de escribir una línea de pseudocódigo,
 respondé esto:
 
-| Pregunta | Qué significa |
-|---|---|
-| **1. Candidatos (C)** | ¿Cuáles son los "ladrillos" con los que se construye la solución? (objetos, aristas, movimientos, ciudades…) |
+|         Pregunta             |                                                       Qué significa                                                        |
+|------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| **1. Candidatos (C)**        | ¿Cuáles son los "ladrillos" con los que se construye la solución? (objetos, aristas, movimientos, ciudades…)               |
 | **2. Criterio de selección** | De todos los candidatos que quedan, ¿cuál es la regla para elegir "el mejor por ahora"? (esto es el corazón del algoritmo) |
-| **3. Factibilidad** | Si agrego ese candidato, ¿la solución parcial sigue siendo válida? (no se rompe una restricción) |
-| **4. Función objetivo** | ¿Qué estoy maximizando o minimizando? |
-| **5. Condición de solución** | ¿Cuándo digo "ya terminé"? |
+| **3. Factibilidad**          | Si agrego ese candidato, ¿la solución parcial sigue siendo válida? (no se rompe una restricción)                           |
+| **4. Función objetivo**      | ¿Qué estoy maximizando o minimizando?                                                                                      |
+| **5. Condición de solución** | ¿Cuándo digo "ya terminé"?                                                                                                 |
 
 Con esas 5 respuestas, **cualquier** algoritmo voraz se escribe con el mismo
 esqueleto:
@@ -204,10 +204,10 @@ un objeto o no?
   como prueba/razonamiento:
 
   | Objeto | Peso | Valor | Razón v/p |
-  |---|---|---|---|
-  | A | 10 | 60 | 6 |
-  | B | 20 | 100 | 5 |
-  | C | 30 | 120 | 4 |
+  |---|--- |---   |---|
+  | A | 10 | 60   | 6 |
+  | B | 20 | 100  | 5 |
+  | C | 30 | 120  | 4 |
 
   Capacidad = 50. El voraz elige A (queda capacidad 40), luego B (queda
   capacidad 20), y C ya no entra → valor = **160**.
