@@ -110,6 +110,7 @@ funcion mochila (objetos,pesos,valores:arreglo(1..n); n,capacidad):entero
 		Sino
 			peso[cual]-capacidad:=
 
+			//lara y facu se aman
 
 	
 	
